@@ -1,0 +1,42 @@
+body {
+  height: 10000px;
+}
+
+.social {
+    background-color: #333333;
+    height: 2.5rem;
+    text-align: right;
+    padding-top: .1rem;
+    border-bottom: .1rem solid #7FD068;
+}
+@media (min-width: 700px) {
+  .social {
+    width: 100%;
+  }
+}
+.icons {  
+  text-align: center;
+  padding-right: 2rem;
+  margin-top: .4rem;
+}
+@media (min-width: 1000px) {
+  .icons {
+    width: 100%;
+    display: inline-block;
+    padding-left: 24rem;
+    margin-top: .4rem;
+  }
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 1.4rem;
+    height: .1rem;
+    display: inline-block;
+    margin-right: .5rem;
+    border: .1rem solid #eaebec;
+    padding-top: 0.25rem;
+    padding-bottom: 1.1rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #79C053; 
+}
